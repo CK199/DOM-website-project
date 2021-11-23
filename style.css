@@ -1,0 +1,92 @@
+body {
+    background-color:deeppink;
+    color:navy;
+    font-family:'Segoe UI', Tahoma, sans-serif;
+}
+
+#welcome {
+    font-size:4vh;
+}
+
+#welcome, #removeWelcome {
+    display: inline-block;
+}
+
+
+#highContrast {
+    position:fixed;
+    right: 10px;
+}
+
+.white {
+    color: white;
+}
+
+
+
+.nav {
+    margin: auto;
+    width: 50%;
+    padding-inline: 30px;
+    text-decoration: none;
+}
+
+.navDefaultColours {
+    color:indigo;
+    background-color: deeppink;
+}
+
+.navDefaultColours:hover {
+    background-color: greenyellow;
+    color:deeppink
+}
+
+.topnav {
+    margin: auto;
+    width: 30%;
+    text-align: center;
+}
+
+.navBorderPurple {
+    border: 3px solid purple;
+}
+
+.navBorderWhite {
+    border: 3px solid white;
+}
+
+.navContrast {
+    color: white;
+    background-color: black;
+}
+
+.navContrast:hover {
+    color: black;
+    background-color:white;
+}
+
+#selfieText {
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    font-size: 2.5vh;
+}
+
+#selfie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding-top: 5px;
+  }
+
+#footer {
+    padding-top: 2.5vh;
+}
+
+::placeholder {
+    color:black;
+    opacity: 0.96;
+    font-style: italic;
+    font-size: small;
+}

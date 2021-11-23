@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Kelly</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav id="navbar" class="topnav navBorderPurple">
+        <a class="nav navDefaultColours" id="homeNav" href="#home">Home</a>
+        <a class="nav navDefaultColours" id="newsNav" href="#news">News</a>
+        <a class="nav navDefaultColours" id="contactNav" href=#contact">Contact</a>
+        <a class="nav navDefaultColours" id="aboutNav" href="#about">About</a>
+    </nav>
+    
+    <button name="highContrast" id="highContrast" onclick="highContrast()">Enable high contrast mode</button>
+
+    <p id="welcome" class="text">Welcome to my page</p>
+    
+    <button name="removeWelcome" id="removeWelcome" onclick="removeWelcome()">Remove this text</button>
+
+
+
+    <h1 class="text">Education</h1>
+
+    <ul class="text" id='education'>
+        <li>University: University of Liverpool</li>
+        <li>College: Bede Sixth Form</li>
+        <li>School: St Michael's Catholic Academy</li>
+    </ul>
+
+    <p id="selfieText" class="text">THIS IS DEFINITELY ME</p>
+
+    <img src="mrIncredible.jpg" alt="Me" id="selfie">
+
+    <p id="signupText" class="text">Sign up to newsletter below</p>
+
+    <form id="form" onsubmit="submitForm()">
+        <label for="nameInput" class="text">Name:</label>
+        <input type="text" name="name" id="nameInput" placeholder="Enter your full name here"><br>
+        <label for="emailInput" class="text">Email:</label>
+        <input type="text" name="email" id="emailInput" placeholder="username@example.com"><br>
+        <input type="submit" value="Sign up to newsletter">
+    </form>
+
+    <p id="formCompleteText" class="text"></p>
+
+    
+
+
+
+    <footer id="footer" class="text">
+        <p>Author: Christian Kelly<br>
+        </p>
+      </footer>
+</body>
+</html>
